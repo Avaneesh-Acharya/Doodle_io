@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(rgba(0, 149, 255, 0.577), rgba(62, 7, 201, 0.75), rgba(0, 217, 255, 0.823))
+}
+
+#div2 {
+    margin: 7.5px;
+    padding: 5px;
+}
+
+.div1 {
+    background-image: linear-gradient(rgb(73, 123, 232), rgb(0, 94, 255), rgb(137, 251, 183));
+    float: none;
+    width: 100%;
+    font-size: 22px;
+}
+
+h1 {
+    background-color: paleturquoise;
+}
+
+#SHOW_SKETCH {
+    float: right;
+    padding: 2px;
+    margin: 10px;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+canvas {
+    border: 10px dotted whitesmoke;
+    border-radius: 20px;
+    animation-name: Animation1;
+    animation-duration: 3s;
+    margin-top: 193px;
+    animation-iteration-count: infinite;
+}
+@keyframes Animation1 {
+    from{box-shadow: 2.5px 2.5px 39px whitesmoke}
+    to{box-shadow: 2.5px 2.5px 39px rgba(97, 210, 255, 0.753)}
+}
